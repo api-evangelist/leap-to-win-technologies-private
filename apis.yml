@@ -1,23 +1,110 @@
 aid: leap-to-win-technologies-private
 name: Leap To Win Technologies Private
-description: Leap To Win Technologies Private is a company surfaced as a portfolio company of canaan-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: 'Leap To Win Technologies Private Limited is a Bengaluru, India company incorporated
+  on 26 June 2024 (CIN U62090KA2024PTC190203) that operates Propico (propico.in), a rental
+  guarantee and property management service. For property owners Propico underwrites a fixed
+  guaranteed monthly rent with zero-vacancy risk, handling tenant screening and placement, rent
+  collection, inspections, maintenance coordination and legal compliance; for tenants it sells
+  rental protection plans covering unfair security-deposit deductions and surprise move-out costs.
+  The company markets two packages - a Premium Guaranteed plan and a Standard property-management
+  plan - and serves Bangalore, Hyderabad, Mumbai, Delhi NCR and Pune. Propico runs a marketing and
+  customer web app backed by an authenticated multi-service API gateway at api.propico.in, but
+  publishes no public developer portal, API documentation, SDKs or OpenAPI definition. It does
+  publish a well-formed llms.txt, making it agent-discoverable as a content surface even though it
+  exposes no programmable interface.'
 url: https://raw.githubusercontent.com/api-evangelist/leap-to-win-technologies-private/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://propico.in/lovable-uploads/202e7a7e-e459-4302-b6e8-be33ce8b7430.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - canaan-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-backed-by-verified: false
+x-backed-by-note: The canaan-partners association came from the VC portfolio pipeline and could
+  not be corroborated in public sources during enrichment on 2026-07-19; no funding announcement
+  for Propico / Leap To Win Technologies was found.
+x-brand: Propico
+x-legal-entity: LEAP TO WIN TECHNOLOGIES PRIVATE LIMITED
+x-cin: U62090KA2024PTC190203
+x-incorporated: '2024-06-26'
+x-headquarters: 3rd Floor, No 502, Sharda, 4S Sector 3, HSR Layout, Bangalore, Karnataka 560102,
+  India
+x-directors:
+- Prabhdeep Singh Bedi
+- Rajshekhar Ratrey
+- Sarvee Diwan
+x-tier: profiled
+x-tier-reason: identity confirmed via propico.in terms-of-use; no public API surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 tags:
 - Company
-apis: []
+- Real Estate
+- PropTech
+- Property Management
+- Rental
+- Insurance
+- India
+- Consumer
+apis:
+- aid: leap-to-win-technologies-private:propico-platform
+  name: Propico Platform API
+  description: 'Undocumented, authentication-required API gateway serving the Propico web
+    application. Observed on 2026-07-19: an unauthenticated GET /health returns 200 and reports a
+    gateway fronting four internal services (auth-service, messaging-service, property-service,
+    payment-service); every other probed path returns 401 with body {"error":"Authentication
+    required"}. There is no public developer portal, documentation, OpenAPI definition or
+    self-serve credential issuance - this entry records an observed private surface, not a
+    published API.'
+  humanURL: https://propico.in/
+  baseURL: https://api.propico.in
+  x-access: private
+  x-documented: false
+  x-observed: '2026-07-19'
+  properties:
+  - type: Website
+    url: https://propico.in/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://propico.in/
+- type: About
+  url: https://propico.in/about
+- type: Support
+  url: https://propico.in/contact-us
+- type: Blog
+  url: https://propico.in/blog
+- type: SignUp
+  url: https://propico.in/list-property
+- type: TermsOfService
+  url: https://propico.in/terms-of-use
+- type: PrivacyPolicy
+  url: https://propico.in/privacy-policy
+- type: RefundPolicy
+  url: https://propico.in/refund-policy
+- type: Twitter
+  url: https://twitter.com/propico_in
+- type: LLMsTxt
+  url: llms/leap-to-win-technologies-private-llms.txt
+- type: DomainSecurity
+  url: security/leap-to-win-technologies-private-domain-security.yml
