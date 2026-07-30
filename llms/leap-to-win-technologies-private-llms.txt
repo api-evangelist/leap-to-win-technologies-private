@@ -1,0 +1,21 @@
+# Propico
+
+> Propico offers guaranteed monthly rent to property owners in India and rental protection plans to tenants in Hyderabad. We manage tenants, maintenance, and payments end-to-end.
+
+Propico is a Hyderabad-based rental management and rental-protection service. For owners, we guarantee fixed monthly rent with zero vacancy risk. For tenants, our protection plans cover unfair deposit deductions and surprise move-out costs.
+
+## Pages
+- [Home — Guaranteed Rental Income](https://propico.in/): Overview of Propico's guaranteed rent model for property owners.
+- [About Propico](https://propico.in/about): Company story, mission, and team.
+- [List Your Property](https://propico.in/list-property): Onboard a property for guaranteed monthly rent.
+- [Rental Protection for Tenants](https://propico.in/rental-protection): Plans that protect tenants from unfair deposit deductions.
+- [For Tenants](https://propico.in/tenants): Tenant membership, benefits, and rewards.
+- [Contact Us](https://propico.in/contact-us): Reach the Propico team.
+
+## Blog
+- [Propico Blog](https://propico.in/blog): Guides on guaranteed rent, rental protection, deposits, and property management in India.
+
+## Optional
+- [Privacy Policy](https://propico.in/privacy-policy)
+- [Terms of Use](https://propico.in/terms-of-use)
+- [Refund Policy](https://propico.in/refund-policy)

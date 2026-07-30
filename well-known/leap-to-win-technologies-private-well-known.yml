@@ -1,0 +1,42 @@
+generated: '2026-07-19'
+method: probed
+source: live HTTP probe of propico.in and api.propico.in
+note: No /.well-known/ discovery documents are published. The marketing host returns 404 for every
+  probed path; the API gateway returns 401 for every path because it requires authentication
+  ahead of routing, so absence there is unconfirmed rather than proven.
+hosts:
+- host: https://propico.in
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://api.propico.in
+  documents:
+  - path: /.well-known/security.txt
+    status: 401
+  - path: /.well-known/openid-configuration
+    status: 401
+  - path: /.well-known/oauth-authorization-server
+    status: 401
+  - path: /.well-known/api-catalog
+    status: 401
+  - path: /.well-known/ai-plugin.json
+    status: 401
+other_root_documents:
+- path: /llms.txt
+  host: https://propico.in
+  status: 200
+  file: ../llms/leap-to-win-technologies-private-llms.txt
+- path: /robots.txt
+  host: https://propico.in
+  status: 200
+- path: /sitemap.xml
+  host: https://propico.in
+  status: 200
