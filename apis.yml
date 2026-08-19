@@ -45,7 +45,7 @@ x-directors:
 - Sarvee Diwan
 x-tier: profiled
 x-tier-reason: identity confirmed via propico.in terms-of-use; no public API surface
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 x-enrichment:
