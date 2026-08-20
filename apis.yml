@@ -55,6 +55,15 @@ x-enrichment:
   pass: local-v1
 tags:
 - Company
+- Real-Estate
+- PropTech
+- Property Management
+- Rentals
+- Insurance
+- India
+- Consumer
+tags_raw:
+- Company
 - Real Estate
 - PropTech
 - Property Management
