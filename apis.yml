@@ -13,6 +13,9 @@ description: 'Leap To Win Technologies Private Limited is a Bengaluru, India com
   publish a well-formed llms.txt, making it agent-discoverable as a content surface even though it
   exposes no programmable interface.'
 url: https://raw.githubusercontent.com/api-evangelist/leap-to-win-technologies-private/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "identity confirmed via propico.in terms-of-use; no public API surface"
 deliveryModel:
   model: saas
   open_source: false
