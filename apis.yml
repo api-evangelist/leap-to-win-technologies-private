@@ -69,7 +69,7 @@ x-enrichment:
   pass: local-v1
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Property Management
 - Rentals
@@ -85,8 +85,10 @@ tags_raw:
 - Insurance
 - India
 - Consumer
+- Real-Estate
 apis:
 - aid: leap-to-win-technologies-private:propico-platform
+  x-published: false
   name: Propico Platform API
   description: 'Undocumented, authentication-required API gateway serving the Propico web
     application. Observed on 2026-07-19: an unauthenticated GET /health returns 200 and reports a
