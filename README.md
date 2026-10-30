@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Leap To Win Technologies Private is a company surfaced as a portfolio company of canaan-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Leap To Win Technologies Private Limited is a Bengaluru, India company incorporated on 26 June 2024 (CIN U62090KA2024PTC190203) that operates Propico (propico.in), a rental guarantee and property management service. For property owners Propico underwrites a fixed guaranteed monthly rent with zero-vacancy risk, handling tenant screening and placement, rent collection, inspections, maintenance coordination and legal compliance; for tenants it sells rental protection plans covering unfair security-deposit deductions and surprise move-out costs. The company markets two packages - a Premium Guaranteed plan and a Standard property-management plan - and serves Bangalore, Hyderabad, Mumbai, Delhi NCR and Pune. Propico runs a marketing and customer web app backed by an authenticated multi-service API gateway at api.propico.in, but publishes no public developer portal, API documentation, SDKs or OpenAPI definition. It does publish a well-formed llms.txt, making it agent-discoverable as a content surface even though it exposes no programmable interface.
 
-Backed by: canaan-partners
+**Areas:** Company · Real Estate · PropTech · Property Management · Rentals · Insurance · India · Consumer
+
+## Leap To Win Technologies Private on APIs.io
+
+Everything profiled for Leap To Win Technologies Private is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/leap-to-win-technologies-private/](https://apis.io/providers/leap-to-win-technologies-private/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Propico Platform API](https://apis.io/apis/leap-to-win-technologies-private/propico-platform/) — Undocumented, authentication-required API gateway serving the Propico web application. Observed on 2026-07-19: an unauthenticated GET /health returns 200…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Leap To Win Technologies Private Domain Security](https://apis.io/security/leap-to-win-technologies-private/leap-to-win-technologies-private-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://propico.in/)
+- [Sign up](https://propico.in/list-property)
+- [Support](https://propico.in/contact-us)
+- [Blog](https://propico.in/blog)
+- [Terms of service](https://propico.in/terms-of-use)
+- [Privacy policy](https://propico.in/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 5.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.3** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/leap-to-win-technologies-private/](https://apis.io/providers/leap-to-win-technologies-private/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Leap To Win Technologies Private: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/leap-to-win-technologies-private/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
